@@ -4,6 +4,8 @@
   "description": "Bluethoot peripheral",
   "main": "build/index.js",
   "scripts": {
+    "prestart": "npm run build",
+    "start": "watch 'node build/index' build",
     "dev": "watch 'npm run build' src",
     "build": "babel src -d build",
     "test": "jest",
@@ -39,5 +41,11 @@
     "jest": "^20.0.4",
     "np": "^2.16.0",
     "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "eddystone-beacon": "^1.0.7",
+    "google-url": "0.0.4",
+    "redux": "^3.7.1",
+    "redux-bluetooth": "^0.1.21"
   }
 }
