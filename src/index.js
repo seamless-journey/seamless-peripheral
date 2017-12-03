@@ -16,6 +16,6 @@ function handleBroadcastMessage({ err, shortUrl }) {
 }
 
 broadcast.on('message', handleBroadcastMessage);
-broadcast.send('https://jvallelunga.github.io/redux-bluetooth/');
+broadcast.send('https://seamless-journey.github.io/seamless-client/');
 
 

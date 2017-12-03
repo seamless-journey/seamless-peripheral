@@ -45,6 +45,7 @@
   "dependencies": {
     "eddystone-beacon": "^1.0.7",
     "google-url": "0.0.4",
+    "predator-quotes": "^1.1.16",
     "qrcode-terminal": "^0.11.0",
     "redux": "^3.7.1",
     "redux-bluetooth": "^0.1.21",

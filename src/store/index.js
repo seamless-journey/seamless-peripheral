@@ -7,7 +7,7 @@ import reducer from './reducer';
 const key = uuidv4();
 let store = createStore(reducer(key));
 
-connectSyncStore('Counter', store);
+connectSyncStore('Seamless', store);
 
 store.subscribe(() => {
   console.log(JSON.stringify(store.getState()));
