@@ -9,8 +9,8 @@ let store = createStore(reducer(key));
 
 connectSyncStore('Seamless', store);
 
-store.subscribe(() => {
-  console.log(JSON.stringify(store.getState()));
-});
+// store.subscribe(() => {
+//   console.log(JSON.stringify(store.getState()));
+// });
 
 process.send({ key });
